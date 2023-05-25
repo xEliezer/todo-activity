@@ -42,13 +42,13 @@ function App ({todolist}) {
             </h1>
           </div>
           <div className="col-md-3">
-            <img className="img-flucomplete img-thumbnail rounded-circle shadow" src="../public/images/avatar.png" alt="Avatar" />
+            <img className="img-fluid complete img-thumbnail rounded-circle shadow" src="/images/avatar.png" alt="Avatar" />
           </div>
         </div>
         <div className="taskheader container rounded p-3 shadow">
           <div className="row">
             <div className="col-md-2 d-flex justify-content-start align-items-start">
-              <img className="img-flucomplete" src="../public/images/task.png" alt="task-icon" />
+              <img className="img-flucomplete" src="images/task.png" alt="task-icon" />
             </div>
             <div className="col-md-6 d-flex justify-content-center align-items-center">
               <h3 className="fw-semibold pt-2">All Tasks</h3>
